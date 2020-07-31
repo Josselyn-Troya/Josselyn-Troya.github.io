@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/c0a872b1af.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+    </head>
+    <body>
+                
+        <button id='jugador_1' class="btn btn-info">Jugador 1</button>
+        <button id='jugador_2' class="btn btn-info">Jugador 2</button>
+        <button id='turno' class="btn btn-info">Turno</button>
+       
+        <div id='dice-number'></div>
+
+        <div class="tablero">
+            <div class="board">
+
+                <div class="celda start" id="posicion_0">
+                    
+                    <h1>Inicio</h1>
+                    <div class='roja'></div>
+                    <div class="amarilla"></div>
+                </div>
+
+                <div class="celda " id="posicion_1">
+                    <img src="imagenes/1.PNG" alt="" width="110px" height="95px">
+                </div>
+                
+                <div class="celda " id="posicion_2">
+                    <img src="imagenes/2.PNG" alt="" width="110px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_3">
+                    <img src="imagenes/3.PNG" alt="" width="110px" height="95px">
+                    
+                </div>
+
+                <div class="celda " id="posicion_4">
+                    <img src="imagenes/4.PNG" alt="" width="120px" height="95px">
+                </div>
+
+                <div class="celda celda_5" id="posicion_5">
+                    <img src="imagenes/5.PNG" alt="" width="119px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_6">
+                    <img src="imagenes/6.PNG" alt="" width="95px" height="110px" style="border-top-right-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_7">
+                    <img src="imagenes/7.jpg" alt="" width="90px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_8">
+                    <img src="imagenes/8.jpg" alt="" width="90px" height="100px">
+                </div>
+
+                <div class="celda " id="posicion_9">
+                    <img src="imagenes/9.png" alt="" width="90px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_10">
+                    <img src="imagenes/10.png" alt="" width="90px" height="118px">
+                </div>
+
+                <div class="celda " id="posicion_11">
+                    <img src="imagenes/11.png" alt="" width="90px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_12">
+                    <img src="imagenes/12.png" alt="" width="95px" height="110px" style="border-bottom-right-radius: 400px 200px;">
+                </div>
+                
+                <div class="celda " id="posicion_13">
+                    <img src="imagenes/13.png" alt="" width="119px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_14">
+                    <img src="imagenes/14.png" alt="" width="119px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_15">
+                    <img src="imagenes/15.png" alt="" width="111px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_16">
+                    <img src="imagenes/16.png" alt="" width="110px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_17">
+                    <img src="imagenes/17.png" alt="" width="110px" height="95px">
+                </div>
+
+                <div class="celda " id="posicion_18">
+                    <img src="imagenes/18.png" alt="" width="110px" height="110x" style="border-bottom-left-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_19">
+                    <img src="imagenes/19.png" alt="" width="105px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_20">
+                    <img src="imagenes/20.png" alt="" width="105px" height="119px">
+                </div>
+
+                <div class="celda " id="posicion_21">
+                    <img src="imagenes/21.png" alt="" width="105px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_22">
+                    <img src="imagenes/22.png" alt="" width="105px" height="100px">
+                </div>
+
+                <div class="celda " id="posicion_23">
+                    <img src="imagenes/23.png" alt="" width="110px" height="105px" style="border-top-left-radius: 400px 200px;">
+                </div>
+                
+                <div class="celda " id="posicion_24">
+                    <img src="imagenes/24.png" alt="" width="110px" height="91px">
+                </div>
+
+                <div class="celda " id="posicion_25">
+                    <img src="imagenes/25.png" alt="" width="110px" height="91px">
+                </div>
+
+                <div class="celda " id="posicion_26">
+                    <img src="imagenes/26.png" alt="" width="110px" height="91px">
+                </div>
+
+                <div class="celda " id="posicion_27">
+                    <img src="imagenes/27.png" alt="" width="120px" height="91px" >
+                </div>
+
+                <div class="celda " id="posicion_28">
+                    <img src="imagenes/28.png" alt="" width="105px" height="105px" style="border-top-right-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_29">
+                    <img src="imagenes/29.png" alt="" width="100px" height="100px">
+                </div>
+
+                <div class="celda " id="posicion_30">
+                    <img src="imagenes/30.png" alt="" width="100px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_31">
+                    <img src="imagenes/31.png" alt="" width="100px" height="119px">
+                </div>
+
+                <div class="celda " id="posicion_32">
+                    <img src="imagenes/32.png" alt="" width="105px" height="105px" style="border-bottom-right-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_33">
+                    <img src="imagenes/33.png" alt="" width="119px" height="100px">
+                </div>
+
+                <div class="celda " id="posicion_34">
+                    <img src="imagenes/34.png" alt="" width="110px" height="100px">
+                </div>
+                
+                <div class="celda " id="posicion_35">
+                    <img src="imagenes/35.png" alt="" width="110px" height="100">
+                </div>
+
+                <div class="celda " id="posicion_36">
+                    <img src="imagenes/36.png" alt="" width="97px" height="105"  style="border-bottom-left-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_37">
+                    <img src="imagenes/37.png" alt="" width="92px" height="119px">
+                </div>
+
+                <div class="celda " id="posicion_38">
+                    <img src="imagenes/38.png" alt="" width="92px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_39">
+                    <img src="imagenes/39.png" alt="" width="95px" height="95px" style="border-top-left-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_40">
+                    <img src="imagenes/40.png" alt="" width="110px" height="90px">
+                </div>
+
+                <div class="celda " id="posicion_41">
+                    <img src="imagenes/41.png" alt="" width="110px" height="90px">
+                </div>
+
+                <div class="celda " id="posicion_42">
+                    <img src="imagenes/42.png" alt="" width="105px" height="95px" style="border-top-right-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_43">
+                    <img src="imagenes/43.png" alt="" width="100px" height="110px">
+                </div>
+
+                <div class="celda " id="posicion_44">
+                    <img src="imagenes/44.png" alt="" width="105px" height="105px" style="border-bottom-right-radius: 400px 200px;" >
+                </div>
+
+                <div class="celda " id="posicion_45">
+                    <img src="imagenes/45.png" alt="" width="110px" height="100px">
+                </div>
+
+                <div class="celda " id="posicion_46">
+                    <img src="imagenes/46.png" alt="" width="95px" height="105px"  style="border-bottom-left-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_47">
+                    <img src="imagenes/47.png" alt="" width="93px" height="95px"  style="border-top-left-radius: 400px 200px;">
+                </div>
+
+                <div class="celda " id="posicion_48">
+                    <h1>FIN</h1>
+                </div>
+
+                <div class="celda " id="posicion_49">
+                </div>
+                <div class="celda " id="posicion_50">
+                </div>
+                <div class="celda " id="posicion_51">
+                </div>
+                <div class="celda " id="posicion_52">
+                </div>
+                <div class="celda " id="posicion_53">
+                </div>
+                
+            </div>
+        </div>
+    <script src="js/index.js" ></script>
+    </body>
+</html>
